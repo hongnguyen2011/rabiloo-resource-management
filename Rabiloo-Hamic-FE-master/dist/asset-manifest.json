@@ -1,0 +1,6 @@
+{
+  "main.js": "auto/index.bundle.js",
+  "node_modules_web-vitals_dist_web-vitals_js.index.bundle.js": "auto/node_modules_web-vitals_dist_web-vitals_js.index.bundle.js",
+  "favicon.ico": "auto/favicon.ico",
+  "index.html": "auto/index.html"
+}

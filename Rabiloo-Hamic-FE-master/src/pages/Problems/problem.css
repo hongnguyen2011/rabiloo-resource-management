@@ -1,0 +1,125 @@
+.problemsBody>h2{
+    color: var(--navy-blue);
+    padding: 8px 16px;
+}
+.problemsBody>button{
+    width: 100%;
+    background-color: var(--white);
+    color: var(--navy-blue);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 20px;
+}
+.problemsBody button:hover{
+    cursor: pointer;
+}
+.addTest {
+    height: 190px;
+    width: 100%;
+}
+.addTest>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -16px;
+}
+.colTitle,
+.colForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+.colTitle{
+    flex-grow: 1;
+}
+.colForm{
+    flex-grow: 10;
+}
+.colTitle p{
+    margin: 10px 0;
+}
+.colForm input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid var(--navy-blue);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0;
+}
+.addTest button{
+    float: right;
+}
+
+.problemsBody>div{
+    margin: 20px 0;
+    background-color: var(--white);
+    color: var(--navy-blue);
+    box-shadow: 0 0 5px #253f8e;
+    border: 1px solid var(--navy-blue);
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+.problemsBody>div h2{
+    margin: 14px 0;
+}
+.problemsBody>div p{
+    line-height: 1.2;
+    margin: 12px 0;
+}
+.problemsBody>div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.problemsBody>div div p{
+    font-weight: 600;
+}
+.modalPassword button,
+.modalUpdate button,
+.addTest button,
+.problemsBody>div div button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: var(--navy-blue);
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.modalPassword button:hover,
+.modalUpdate button:hover,
+.addTest button:hover,
+.problemsBody>div div button:hover{
+    background-color: var(--light-blue);
+    color: var(--navy-blue);
+}
+.modalPassword,
+.modalUpdate{
+    color: var(--navy-blue);
+    background-color:white;
+    padding: 8px 16px;
+    box-shadow: 0 0 5px rgba(37, 64, 143, 1);
+    margin-top: 100px;
+    width: 600px;
+    min-height: 250px;
+    margin-left: 26%;
+}
+
+
+.modalUpdate div{
+    display: flex;
+    justify-content: space-between;
+}
+.modalPassword button,
+.modalUpdate button{
+    cursor: pointer;
+    margin: 8px 16px;
+}
+.modalPassword input,
+.modalUpdate input{
+    width: 90%;
+    height: 30px;
+    padding: 8px;   
+}

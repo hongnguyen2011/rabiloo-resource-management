@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  frontend:
+    container_name: frontend_container_name
+    build:
+      context: .
+    ports:
+      - "3001:80" # map 80 in container => 3000 in local
+

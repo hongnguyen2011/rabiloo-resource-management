@@ -1,0 +1,118 @@
+.contentTest>h2{
+    color: var(--white);
+    padding: 8px 16px;
+}
+.contentTest>button{
+    width: 100%;
+    background-color: var(--white);
+    color: var(--navy-blue);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.contentTest>button:hover{
+    color: var(--light-blue);
+}
+.contentTest button:hover{
+    cursor: pointer;
+}
+.contentTest>div{
+    background-color: var(--white);
+    color: var(--navy-blue);
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 8px 16px;
+}
+.contentTest>div h4{
+    padding-bottom: 12px;
+}
+.contentTest>div input{
+    margin: 0 5px;
+}
+.contentTest>div input[type=text]{
+    height: 30px;
+    width: 100%;
+    padding: 8px;
+}
+.createQuestion{
+    padding-bottom: 50px;
+    border: 1px solid black
+}
+.addQuestion {
+    height: 150px;
+    width: 100%;
+}
+.addQuestion>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -16px;
+}
+.colTitle,
+.colForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+.colTitle{
+    flex-grow: 1;
+}
+.colForm{
+    flex-grow: 10;
+}
+.colTitle p{
+    margin: 10px 0;
+}
+.colForm input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid var(--navy-blue);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px 0;
+}
+.questionTest{
+    background-color: var(--white);
+    color: var(--navy-blue);
+    
+}
+.questionTest button,
+.addQuestion button{
+    float: right;
+}
+.createQuestion button,
+.questionTest button,
+.addQuestion button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: var(--navy-blue);
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.createQuestion button:hover,
+.questionTest button:hover,
+.addQuestion button:hover{
+    background-color: var(--light-blue);
+    color: var(--navy-blue);
+}
+.createQuestion input{
+    margin: 5px 0;
+    padding: 8px;
+}
+.modalUpdateQuestion{
+    color: var(--navy-blue);
+    background-color:white;
+    padding: 8px 16px;
+    box-shadow: 0 0 5px rgba(37, 64, 143, 1);
+    margin-top: 100px;
+    width: 600px;
+    margin-left: 26%;
+}

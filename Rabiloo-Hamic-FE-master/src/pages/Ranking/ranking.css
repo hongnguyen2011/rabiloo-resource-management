@@ -1,0 +1,33 @@
+.rankingBody>h2{
+    color: var(--white);
+    padding: 8px 16px;
+}
+.rankingBody>div{
+    width: 100%;
+    padding: 8px 16px;
+}
+.tableTitle{
+    background-color: var(--navy-blue);
+    color: var(--white);
+    box-shadow: 0 0 5px rgba(37, 64, 143, 1);
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.tableContent{
+    background-color: var(--white);
+    color: var(--navy-blue);
+    box-shadow: 0 0 5px rgba(37, 64, 143, 1);
+    border-radius: 0 0 5px 5px;
+}
+.tableContent>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    border-bottom: 2px solid rgba(37, 64, 143, 0.5);
+}
+
